@@ -1,0 +1,10 @@
+.button-input{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    border-color: black;
+    height: 75px;
+    width: 200px;
+    margin: 10px;
+}
