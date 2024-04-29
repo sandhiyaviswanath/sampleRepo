@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+        <title>
+            chatbot
+        </title>
+    </head>
+    <body>
+        <h1> Chatbot Processing SQL Queries</h1>
+        <div class="setup-container">
+            <h2>Microsoft SQL Server setup</h2>
+            <h3>Select the Database</h3>
+            <form name="select_db" id="select_db" method="post" action="/db_configure">
+            <input type="hidden" id="db_name" name="db_name">
+            <input type="hidden" id="server_name" name="server_name" value="{{server_name}}">
+            </form>
+        </div>
+    </body>
+</html>
